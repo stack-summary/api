@@ -4,6 +4,7 @@ type Category int
 
 const (
 	Paas Category = iota
+	Serverless
 	Rdb
 	DocumentDb
 	ObjectStorage
